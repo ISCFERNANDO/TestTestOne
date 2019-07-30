@@ -2,4 +2,11 @@ function suma(a, b) {
   return a + b;
 }
 
-module.exports = suma;
+function substract(a, b) {
+  return a - b;
+}
+
+module.exports = {
+  suma,
+  substract,
+};
