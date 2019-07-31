@@ -1,7 +1,7 @@
 const sum = 1;
-const res = 1;
-const mul = 1;
-const div = 1;
+const res = 2;
+const mul = 3;
+const div = 4;
 
 function suma(a, b) {
   return a + b;

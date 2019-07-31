@@ -18,5 +18,5 @@ test("Producto 3 * 5 to 15", () => {
 
 test("All in one Producto 3 * 5 to 15", () => {
   //suma
-  expect(allInOne(3, 5, 1)).toBe(15);
+  expect(allInOne(3, 5, 3)).toBe(15);
 });
