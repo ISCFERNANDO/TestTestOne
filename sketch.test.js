@@ -1,4 +1,4 @@
-const { suma, substract, division, product } = require("./sketch");
+const { suma, substract, division, product, allInOne } = require("./sketch");
 
 test("Add 3 + 5 to 8", () => {
   expect(suma(3, 5)).toBe(8);
@@ -14,4 +14,9 @@ test("Division 3 / 5 to 0.6", () => {
 
 test("Producto 3 * 5 to 15", () => {
   expect(product(3, 5)).toBe(15);
+});
+
+test("All in one Producto 3 * 5 to 15", () => {
+  //suma
+  expect(allInOne(3, 5, 1)).toBe(15);
 });
