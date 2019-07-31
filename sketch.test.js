@@ -1,4 +1,4 @@
-const { suma, substract, division, product, allInOne } = require("./sketch");
+const { suma, substract, division, product, allInOne, toLower } = require("./sketch");
 
 test("Add 3 + 5 to 8", () => {
   expect(suma(3, 5)).toBe(8);
@@ -19,4 +19,8 @@ test("Producto 3 * 5 to 15", () => {
 test("All in one Producto 3 * 5 to 15", () => {
   //suma
   expect(allInOne(3, 5, 3)).toBe(15);
+});
+
+test("South string to lower case", () => {
+  expect(toLower("Luis Fernando")).toEqual("luis fernando");
 });

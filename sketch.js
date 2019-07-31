@@ -19,6 +19,10 @@ function division(a, b) {
   return a / b;
 }
 
+function toLower(string) {
+  return string.toLowerCase();
+}
+
 function allInOne(a, b, opc) {
   switch (opc) {
     case sum:
@@ -39,5 +43,6 @@ module.exports = {
   substract,
   product,
   division,
-  allInOne
+  allInOne,
+  toLower
 };
